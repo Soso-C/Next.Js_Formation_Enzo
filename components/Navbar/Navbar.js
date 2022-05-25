@@ -13,6 +13,12 @@ const Navbar = () => {
       <Link href="/users">
         <a>Liste</a>
       </Link>
+      <Link href="/randomwords">
+        <a>Random Words</a>
+      </Link>
+      <Link href="/add">
+        <a>Add Word</a>
+      </Link>
     </nav>
   );
 };
