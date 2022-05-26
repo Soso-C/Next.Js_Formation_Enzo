@@ -4,7 +4,7 @@ const User = ({ data }) => {
   const { name, username, email, website, phone } = data;
 
   return (
-    <div className="flex justify-center items-center mt-10">
+    <div className="flex justify-center items-center mt-10 px-4">
       <div className="border border-gray-300 p-4 w-full max-w-[600px]">
         <h1 className="text-xl font-medium">{name}</h1>
         <p className="font-medium text-gray-500">{`Username : ${username}`}</p>

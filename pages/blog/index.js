@@ -9,7 +9,7 @@ export default function blog({ data }) {
       </h1>
       <p className="text-center">Voici les articles</p>
 
-      <div className="flex flex-col md:flex-row justify-center items-center mt-10 md:flex-wrap gap-5 mb-10">
+      <div className="flex flex-col md:flex-row justify-center items-center mt-10 md:flex-wrap gap-5 mb-10 px-4 md:px-0">
         {data?.slice(0, 24).map((article) => (
           <div
             key={uuidv4()}
